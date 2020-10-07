@@ -24,6 +24,10 @@ Oppgaver jeg har gjort:
 
 # Beskrivelse av oppgaveløsning (maks 5 linjer per oppgave)
 
-* Oppgave 1: Løste ved å implementere..
+* Oppgave 1: Løste ved å implementere en metode for int antall() og boolean tom() som er standardkonstruktøren. 
+Deretter lager jeg en metode som fjerner den midlertidige noden, altså konstruktøren public DobbeltLenketListe(T[] a).
+Til slutt implimenterer jeg int antall() og boolean tom() i gitt programbit som gir utskrift: 0 true. Og
+tester konstruktøren ved hjelp programbit, og får utskrift 3 false.
+
 * Oppgave 2: ...
 
