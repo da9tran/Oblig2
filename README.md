@@ -32,8 +32,7 @@ tester konstruktøren ved hjelp programbit, og får utskrift 3 false.
 * Oppgave 2: a) Implimenterte en metode for metoden String omvendtString() som returnerer en tegnstreng
 med listens verdier. Og implementerte en metode for metoden String omvendtString(), som returnerer tegnstreng på samme
 fom som den toString() gir, men verdiene skal komme i omvendt rekkefølge. Til slutt kjørte jeg følgende
-programbit for oppgave 2 a. Den blir kjørt og jeg får utskrift, men får ikke helt
-samme utskrift som i obligen.
+programbit for oppgave 2 a. 
 
 
 
