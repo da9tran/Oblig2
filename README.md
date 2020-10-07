@@ -35,3 +35,5 @@ fom som den toString() gir, men verdiene skal komme i omvendt rekkefølge. Til s
 programbit for oppgave 2 a. Den blir kjørt og jeg får utskrift, men får ikke helt
 samme utskrift som i obligen.
 
+
+
