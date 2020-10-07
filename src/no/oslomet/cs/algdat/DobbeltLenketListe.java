@@ -178,6 +178,28 @@ public class DobbeltLenketListe<T> implements Liste<T> {
         return s.toString();
     }
 
+    //hjelpemetode
+    private Node<T> finnNode(int indeks){
+        indeksKontroll(indeks, false);
+
+        Node<T> p;
+
+        if (indeks < antall / 2) {
+            p = hode;
+            for (int i = 0; i < indeks; i++) {
+                p = p.neste;
+            }
+            return p;
+        }
+        else {
+            p = hale;
+            for (int i = antall - 1; i > indeks; i--) {
+                p = p.forrige;
+            }
+            return p;
+        }
+    }
+
     @Override
     public Iterator<T> iterator() {
         throw new UnsupportedOperationException();
