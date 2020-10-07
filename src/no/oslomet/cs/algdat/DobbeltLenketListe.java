@@ -54,6 +54,13 @@ public class DobbeltLenketListe<T> implements Liste<T> {
         Objects.requireNonNull(a, "a = null");
 
         hode = hale = new Node<>(null);
+
+        for (T verdi : a){
+            if (verdi != null){
+                hale = hale.neste = new Node <> (verdi,hale,null);
+                antall++;
+            }
+        }
     }
 
     public Liste<T> subliste(int fra, int til){
