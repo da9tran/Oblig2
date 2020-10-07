@@ -49,7 +49,11 @@ public class DobbeltLenketListe<T> implements Liste<T> {
     }
 
     public DobbeltLenketListe(T[] a) {
-        throw new UnsupportedOperationException();
+        this();
+
+        Objects.requireNonNull(a, "a = null");
+
+        hode = hale = new Node<>(null);
     }
 
     public Liste<T> subliste(int fra, int til){
