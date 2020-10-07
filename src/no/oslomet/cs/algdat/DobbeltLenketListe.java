@@ -116,7 +116,16 @@ public class DobbeltLenketListe<T> implements Liste<T> {
 
     @Override
     public T oppdater(int indeks, T nyverdi) {
-        throw new UnsupportedOperationException();
+        Objects.requireNonNull(nyverdi);
+
+        Node<T> p = finnNode(indeks);
+
+        T gammelverdi = p.verdi;
+        endringer++;
+
+        p.verdi = nyverdi;
+
+        return gammelverdi;
     }
 
     @Override
