@@ -45,4 +45,11 @@ om indeksene fra og til er lovlige, så lagde jeg ferdig metoden Liste<T> sublis
 returnere en liste som inneholder verdiene fra intervallet fra:til > i "vår" liste. Til slutt sjekket jeg følgende
 programbit på main metoden,og det ble kjørt og skrevet ut. 
 
+* Oppgave 4: Først Implementerte metoden for int indeksTil (T verdi), som returner indeksen/posisjonen til verdi hvis 
+det finnes i listen og returnerer -1 hvis den ikke finnes. Så lagde jeg metoden boolean inneholder(T verdi), som skal 
+returnere true hvis listen inneholder verdi og returnerer false ellers. Hadde en liten feil på starten, men fikset det
+ved å bytte 1 til -1.
+
+
+
 
