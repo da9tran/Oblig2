@@ -207,14 +207,15 @@ public class DobbeltLenketListe<T> implements Liste<T> {
     }
 
     //hjelpemetode for 3b
-    private void fratilKontroll(int tabLengde, int fra, int til){
-        if (fra < 0 || til > tabLengde){
+    private void fratilKontroll(int antall, int fra, int til){
+        if (fra < 0 || til > antall){
             throw new IndexOutOfBoundsException();
         }
         if (fra > til) {
             throw new IllegalArgumentException();
         }
     }
+
 
     @Override
     public Iterator<T> iterator() {
