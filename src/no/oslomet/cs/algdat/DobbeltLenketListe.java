@@ -65,10 +65,6 @@ public class DobbeltLenketListe<T> implements Liste<T> {
         else (hode = hode.neste).forrige=null;
     }
 
-    public Liste<T> subliste(int fra, int til){
-        throw new UnsupportedOperationException();
-    }
-
     @Override
     public int antall() {
         return antall; }
@@ -188,7 +184,7 @@ public class DobbeltLenketListe<T> implements Liste<T> {
         return s.toString();
     }
 
-    //hjelpemetode
+    //hjelpemetode for 3a
     private Node<T> finnNode(int indeks){
         indeksKontroll(indeks, false);
 
@@ -207,6 +203,16 @@ public class DobbeltLenketListe<T> implements Liste<T> {
                 p = p.forrige;
             }
             return p;
+        }
+    }
+
+    //hjelpemetode for 3b
+    private void fratilKontroll(int tabLengde, int fra, int til){
+        if (fra < 0 || til > tabLengde){
+            throw new IndexOutOfBoundsException();
+        }
+        if (fra > til) {
+            throw new IllegalArgumentException();
         }
     }
 
