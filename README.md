@@ -38,8 +38,11 @@ innlegging. Dette sjekket jeg via programbiten gitt på oppgave 2b.
 
 * Oppgave 3: a) Først implementerte jeg den private hjelpemetoden Node<T> finnNode(int indeks), som skal 
 returnere noden med den gitte indeksen/posisjonen. Også implimenterte jeg metoden public T hent(int indeks)
-ved å bruke finnNode(), hvor jeg brukte metoden indeksKontroll() som arves fra Liste. Så lagde jeg metoden
-T oppdater(int indeks, T nyverdi), som erstattet verdien som erstatter verdien på plass indeks med nyverdi 
-og returnerer det som lå der fra før.
+ved å bruke finnNode(), hvor jeg brukte metoden indeksKontroll() som arves fra Liste. Byttet også tablengde med antall.
+Så lagde jeg metoden T oppdater(int indeks, T nyverdi), som erstattet verdien som erstatter verdien på plass indeks med 
+nyverdi og returnerer det som lå der fra før. b) Først implementerte en privat metode kalt fratilKontroll, som sjekkes
+om indeksene fra og til er lovlige, så lagde jeg ferdig metoden Liste<T> subliste(int fra, int til) som skal 
+returnere en liste som inneholder verdiene fra intervallet fra:til > i "vår" liste. Til slutt sjekket jeg følgende
+programbit på main metoden,og det ble kjørt og skrevet ut. 
 
 
