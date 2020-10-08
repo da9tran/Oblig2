@@ -31,7 +31,5 @@ public class Main {
         System.out.println(liste4.subliste(3,8));
         System.out.println(liste4.subliste(5,5));
         System.out.println(liste4.subliste(8, liste4.antall()));
-
-
     }
 }
