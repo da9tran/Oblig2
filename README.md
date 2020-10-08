@@ -36,5 +36,10 @@ programbit for oppgave 2 a. b) Implementerte en metode for metoden boolean leggI
 requireNonNull-metode fra klassen Objects. Antallet økes etter en 
 innlegging. Dette sjekket jeg via programbiten gitt på oppgave 2b.
 
+* Oppgave 3: a) Først implementerte jeg den private hjelpemetoden Node<T> finnNode(int indeks), som skal 
+returnere noden med den gitte indeksen/posisjonen. Også implimenterte jeg metoden public T hent(int indeks)
+ved å bruke finnNode(), hvor jeg brukte metoden indeksKontroll() som arves fra Liste. Så lagde jeg metoden
+T oppdater(int indeks, T nyverdi), som erstattet verdien som erstatter verdien på plass indeks med nyverdi 
+og returnerer det som lå der fra før.
 
 
