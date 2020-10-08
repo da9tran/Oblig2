@@ -31,5 +31,12 @@ public class Main {
         System.out.println(liste4.subliste(3,8));
         System.out.println(liste4.subliste(5,5));
         System.out.println(liste4.subliste(8, liste4.antall()));
+
+        String[] navn = {"Lars", "Anders", "Bodil", "Kari", "Berit"};
+        Liste<String> liste5 = new DobbeltLenketListe<>(navn);
+
+        liste5.forEach(s4 -> System.out.print(s4 + " "));
+        System.out.println();
+        for (String s4 : liste5) System.out.print(s4 + " ");
     }
 }
