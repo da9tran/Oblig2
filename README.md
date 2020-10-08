@@ -50,6 +50,8 @@ det finnes i listen og returnerer -1 hvis den ikke finnes. Så lagde jeg metoden
 returnere true hvis listen inneholder verdi og returnerer false ellers. Hadde en liten feil på starten, men fikset det
 ved å bytte 1 til -1.
 
-
+*Oppgave 5: Først sjekker om verdien er null med Objects.requireNonNull. Også sjekker størrelse på indeksen, og implementerer
+metoden void leggInn(int indeks, T verdi). Og bruker indeksKontroll(indeks, true) for å sjekke om indeksen går inn. Har sjekket også
+om pekerne er korrekte i alle noder hvis ny verdi legges først/bakerst/mellom to verider. Samtidig økes antall og endringer.
 
 
