@@ -54,4 +54,8 @@ ved å bytte 1 til -1.
 metoden void leggInn(int indeks, T verdi). Og bruker indeksKontroll(indeks, true) for å sjekke om indeksen går inn. Har sjekket også
 om pekerne er korrekte i alle noder hvis ny verdi legges først/bakerst/mellom to verider. Samtidig økes antall og endringer.
 
+*Oppgave 6: Implimenterte to fjern metoder, først T fjern(int indeks) som fjerner (og returnerer) verdien på posisjon indeksen. Også implimenterte 
+jeg boolean fjern(T verdi), som fjerner verdien fra listen og så returnere true. Jeg har passet på alle tre tilfellene, altså at den 
+første, siste og en verdi mellom to andre fjernes. Brukte også metodene toString() og omvendtString() til å sjekke at alle pekerne er satt
+riktig. 
 
