@@ -59,3 +59,5 @@ jeg boolean fjern(T verdi), som fjerner verdien fra listen og så returnere true
 første, siste og en verdi mellom to andre fjernes. Brukte også metodene toString() og omvendtString() til å sjekke at alle pekerne er satt
 riktig. 
 
+
+
