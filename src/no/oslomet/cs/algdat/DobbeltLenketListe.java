@@ -65,7 +65,7 @@ public class DobbeltLenketListe<T> implements Liste<T> {
         else (hode = hode.neste).forrige=null;
     }
 
-    public Liste<T> subListe(int fra, int til){
+    public Liste<T> subliste(int fra, int til){
         fratilKontroll(antall, fra, til);
 
         Liste<T> liste = new DobbeltLenketListe<>();

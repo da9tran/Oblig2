@@ -25,5 +25,13 @@ public class Main {
             liste3.leggInn(i);
             System.out.println(liste3.toString() + " " + liste3.omvendtString());
         }
+
+        Character[] c = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',};
+        DobbeltLenketListe<Character> liste4 = new DobbeltLenketListe<>(c);
+        System.out.println(liste4.subliste(3,8));
+        System.out.println(liste4.subliste(5,5));
+        System.out.println(liste4.subliste(8, liste4.antall()));
+
+
     }
 }
