@@ -50,14 +50,19 @@ det finnes i listen og returnerer -1 hvis den ikke finnes. Så lagde jeg metoden
 returnere true hvis listen inneholder verdi og returnerer false ellers. Hadde en liten feil på starten, men fikset det
 ved å bytte 1 til -1.
 
-*Oppgave 5: Først sjekker om verdien er null med Objects.requireNonNull. Også sjekker størrelse på indeksen, og implementerer
+* Oppgave 5: Først sjekker om verdien er null med Objects.requireNonNull. Også sjekker størrelse på indeksen, og implementerer
 metoden void leggInn(int indeks, T verdi). Og bruker indeksKontroll(indeks, true) for å sjekke om indeksen går inn. Har sjekket også
 om pekerne er korrekte i alle noder hvis ny verdi legges først/bakerst/mellom to verider. Samtidig økes antall og endringer.
 
-*Oppgave 6: Implimenterte to fjern metoder, først T fjern(int indeks) som fjerner (og returnerer) verdien på posisjon indeksen. Også implimenterte 
+* Oppgave 6: Implimenterte to fjern metoder, først T fjern(int indeks) som fjerner (og returnerer) verdien på posisjon indeksen. Også implimenterte 
 jeg boolean fjern(T verdi), som fjerner verdien fra listen og så returnere true. Jeg har passet på alle tre tilfellene, altså at den 
 første, siste og en verdi mellom to andre fjernes. Brukte også metodene toString() og omvendtString() til å sjekke at alle pekerne er satt
 riktig. 
 
+* Oppgave 8: a) Først implementerte jeg metoden T next() som sjekker om iteratorendringer er lik endring, hvis ikke kastes en ConcurentModificatopnException.
+b) Så implementerte jeg en metode for Iterator<T> iterator(), som returnerer en instans av iteratorklassen. c) Deretter laget jeg en privat konstruktør private
+DobbeltLenketListeIterator(int indeks). d) Så sjekker jeg om indeksen er lovelig og bruker indeksKontroll(), og implementerer jeg til slutt metoden Iterator<T> 
+iterator(int indeks). Og får å at koden skal gå gjennom 8Q må jeg bruker følgende nullstill-metode på oppgave 7 som ble lagt ut på canvas. Og til slutt testet jeg 
+programbiten som ble gitt på oppgave 8 på main, og den ble kjørt og skrevet ut. 
 
 
